@@ -1,0 +1,28 @@
+import datetime
+import random
+import sys
+
+y = 0
+g = 0
+flag = False
+f = 100
+rand = 0
+currentitems = []
+currentprices= []
+present = False
+specialinst = ""
+fulllist = []
+fullprice = []
+newfulllist = []
+student10 = []
+student20 = []
+student30 = []
+
+time_of_day=''
+student_id = ["123","456","789"]
+name = ['Ananya', 'Tarushee', 'Chaitali']
+student10 = [str(student_id[0])]
+student20 = [str(student_id[1])]
+student30 = [str(student_id[2])]
+
+dict = []
