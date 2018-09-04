@@ -1,8 +1,14 @@
 import sys
 print('Enter day month and year')
-d = input()
-m = input()
-y = int(input())
+s = input()
+i = 0
+d = ''
+m = ''
+y = ''
+a=s.split()
+d = a[0]
+m = a[1]
+y = a[2]
 
 if d[0] == 0:
 	d = d[1:]
@@ -13,6 +19,8 @@ if m[0] == 0:
 d = int(d)
 
 m = int(m)
+
+y = int(y)
 
 nd = d
 nm = m
